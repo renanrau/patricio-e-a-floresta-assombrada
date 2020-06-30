@@ -34,8 +34,11 @@ function preload() {
       bold: loadFont('assets/fonts/Quicksand/static/Quicksand-Regular.ttf'),
     },
   };
+  sounds = {
+    forest: loadSound("assets/music/title.mp3"),
+  };
   backgrounds = [];
   lastBackgrounds = [];
-  somDoJogo = loadSound("sons/trilha_jogo.mp3");
+  // somDoJogo = loadSound("sons/trilha_jogo.mp3");
   somDoPulo = loadSound("sons/jump3.wav");
 }

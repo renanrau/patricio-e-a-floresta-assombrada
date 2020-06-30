@@ -1,15 +1,23 @@
 html, body {
   margin: 0;
   padding: 0;
+  height: 100vh;
+  background: black;
+  /* display: flex; */
+  justify-content: center;
+  /* align-items: center; */
 }
 canvas {
+  margin: auto;
   display: block;
 }
 
 .button-start {
   border: 0;
   width: 15%;
+  max-width: 100px;
   height: 7%;
+  max-height: 40px;
   font-size: 16px;
   font-family: 'Eater-Regular';
   background-color: #ffc0bb75;

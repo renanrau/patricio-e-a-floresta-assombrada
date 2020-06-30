@@ -1,7 +1,7 @@
 let backgrounds;
 let lastBackgrounds;
 
-let somDoJogo;
+// let somDoJogo;
 let somDoPulo;
 let personagem;
 let inimigo;
@@ -20,5 +20,6 @@ let mainScreen;
 let forest;
 
 let fonts;
+let sounds;
 
 let startButton;
